@@ -20,8 +20,8 @@ const SocialLinks = () => {
                   <Image
                     src={facebook}
                     alt={"Facebook link"}
-                    height="79"
-                    width="79"
+                    height="75"
+                    width="75"
                   />{" "}
                 </a>
               );
@@ -32,8 +32,8 @@ const SocialLinks = () => {
                   <Image
                     src={twitter}
                     alt={"Twitter link"}
-                    height="79"
-                    width="79"
+                    height="75"
+                    width="75"
                   />{" "}
                 </a>
               );
@@ -44,8 +44,8 @@ const SocialLinks = () => {
                   <Image
                     src={instagram}
                     alt={"Instagram link"}
-                    height="79"
-                    width="79"
+                    height="75"
+                    width="75"
                   />{" "}
                 </a>
               );
@@ -56,8 +56,8 @@ const SocialLinks = () => {
                   <Image
                     src={snapchat}
                     alt={"Snapchat link"}
-                    height="79"
-                    width="79"
+                    height="75"
+                    width="75"
                   />{" "}
                 </a>
               );
