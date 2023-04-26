@@ -1,7 +1,6 @@
 import { getCurrentUser } from "../utils/data";
-import Image from "next/image";
 
-const { name, email, avatar } = getCurrentUser();
+const { name, avatar } = getCurrentUser();
 
 const TopContent = () => {
   return (
