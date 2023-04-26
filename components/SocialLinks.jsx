@@ -13,6 +13,18 @@ const SocialLinks = () => {
       <div className="links">
         {getLinks.map((link) => {
           switch (link.title) {
+            case "Twitter":
+                return (
+                  <a href={link.url}>
+                    {" "}
+                    <Image
+                      src={twitter}
+                      alt={"Twitter link"}
+                      height="75"
+                      width="75"
+                    />{" "}
+                  </a>
+                );
             case "Facebook":
               return (
                 <a href={link.url}>
@@ -25,18 +37,18 @@ const SocialLinks = () => {
                   />{" "}
                 </a>
               );
-            case "Twitter":
-              return (
-                <a href={link.url}>
-                  {" "}
-                  <Image
-                    src={twitter}
-                    alt={"Twitter link"}
-                    height="75"
-                    width="75"
-                  />{" "}
-                </a>
-              );
+              case "Snapchat":
+                return (
+                  <a href={link.url}>
+                    {" "}
+                    <Image
+                      src={snapchat}
+                      alt={"Snapchat link"}
+                      height="75"
+                      width="75"
+                    />{" "}
+                  </a>
+                );
             case "Instagram":
               return (
                 <a href={link.url}>
@@ -44,18 +56,6 @@ const SocialLinks = () => {
                   <Image
                     src={instagram}
                     alt={"Instagram link"}
-                    height="75"
-                    width="75"
-                  />{" "}
-                </a>
-              );
-            case "Snapchat":
-              return (
-                <a href={link.url}>
-                  {" "}
-                  <Image
-                    src={snapchat}
-                    alt={"Snapchat link"}
                     height="75"
                     width="75"
                   />{" "}
