@@ -7,7 +7,7 @@ const NonSocialLinks = () => {
     return (
       <div className="buttons">
         {nonLinks.map((link => {
-            return <a className=" " href={link.url} key={link.id}>
+            return <a href={link.url} key={link.id}>
             <button className="button max-w-md mt-6 mb-6" >
            <p>{link.title}</p>
        </button>
